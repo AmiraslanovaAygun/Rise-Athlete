@@ -1,0 +1,38 @@
+.container {
+  width: 1300px;
+  padding: 0px 12px;
+  margin: 0px auto;
+}
+
+.btn {
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 16px 48px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.btn-filled {
+  color: black;
+  background-color: #fff;
+}
+.btn-outline {
+  border-color: #fff;
+  color: #fff;
+  background-color: transparent;
+}
+.btn-filled:hover {
+  background-color: #b8e4f5;
+}
+
+ .btn-outline:hover {
+  background-color: rgba(184, 228, 245, 0.2);
+}
+
+.buttons {
+  margin-top: 35px;
+  display: flex;
+  column-gap: 20px;
+}
